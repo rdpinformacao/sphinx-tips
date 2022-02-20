@@ -1,6 +1,8 @@
 # sphinx-tips
-Criado para mostrar como subir documentações com sphinx-theme.
+
+Respositório criado para mostrar como subir documentações com sphinx-theme.
 No exemplo abaixo está sendo executado no ambiente Centos release 7.9.2009 (Core) (RedHat)
+
 
 **Necessário executar a instalação dos seguintes componentes antes de inciar:
 
