@@ -19,7 +19,6 @@ Colocando texto em negrito:
 
 **Texto em negrito pra destacar alguma palavra**
 
-__Texto em negrito pra destacar alguma palavra__
 
 *Texto em Itálico pra destacar alguma palavra*
 
@@ -48,9 +47,9 @@ Alinhado a esquerda | Centralizado | Alinhado a direita
 Valor | Valor | Valor
 
 
-Para criar um Link, faça:
 
-`google<https://google.com.br/>`__
+`google <http://google.com.br>`_
+
 
 
 Adicionando BOX (título nível 2)
