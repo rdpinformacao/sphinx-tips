@@ -39,7 +39,7 @@ extensions = [
    # 'sphinx.ext.pngmath',
     'sphinx.ext.mathjax', 
     'sphinx.ext.ifconfig',
-#    'sphinx_copybutton'
+    'sphinx_copybutton'
    # 'numfig'
 ]
 numfig = True
@@ -50,7 +50,6 @@ copybutton_here_doc_delimiter = "$"
 copybutton_here_doc_delimiter = "#"
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ['sgistemplates']
 
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
@@ -64,9 +63,9 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Sensor Master'
-copyright = u'2020, Sensor Master'
-author = u'Sensor Master'
+project = u'MeuPrimeiroProjetoSphinx'
+copyright = u'2025, rdpinformacao'
+author = u'rpdinformação'
 
 ### desativa View page source
 html_show_sourcelink = False
@@ -224,11 +223,9 @@ html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 #html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'SensorMasterdoc'
-
 # -- Options for LaTeX output ---------------------------------------------
 
-latex_elements = {
+
 # The paper size ('letterpaper' or 'a4paper').
 #'papersize': 'letterpaper',
 
@@ -240,15 +237,10 @@ latex_elements = {
 
 # Latex figure (float) alignment
 #'figure_align': 'htbp',
-}
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
-latex_documents = [
-  (master_doc, 'SensorMaster.tex', u'Sensor Master Documentation',
-   u'Sensor Master', 'manual'),
-]
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
@@ -275,10 +267,6 @@ latex_documents = [
 
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
-man_pages = [
-    (master_doc, 'sensormaster', u'Sensor Master Documentation',
-     [author], 1)
-]
 
 # If true, show URL addresses after external links.
 #man_show_urls = False
@@ -289,11 +277,6 @@ man_pages = [
 # Grouping the document tree into Texinfo files. List of tuples
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
-texinfo_documents = [
-  (master_doc, 'sensormaster', u'Sensor Master Documentation',
-   author, 'Sensor Master', 'One line description of project.',
-   'Miscellaneous'),
-]
 
 # Documents to append as an appendix to all manuals.
 #texinfo_appendices = []

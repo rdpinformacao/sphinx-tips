@@ -1,18 +1,55 @@
 exemplo de formatação da documentação no Sphinx(título nível 1)
 ==================================================================
 
+
 Exemplos de formatações utilizando markdown (título nível 2)
 --------------------------------------------------------------------
 
 
-Exemplo de títulos:
+Exemplo de níveis de títulos:
 
-# Título nível 1 <h1>
-## Título nível 2 <h2>
-### Título nível 3 <h3>
-#### Título nível 4 <h4>
-##### Título nível 5 <h5>
-###### Título nível 6 <h6>
+
+for subsections
+--------------------
+
+Este é um exemplo de subsections
+
+
+for paragraphs
+""""""""""""""""""
+
+Este é um exemplo de paragraphs
+
+
+with overline, for parts
+###############################
+
+Este é um exemplo de parts
+
+
+with overline, for chapters
+**********************************
+
+Este é um exemplo de chapters
+
+
+
+
+for subsubsections
+^^^^^^^^^^^^^^^^^^^^
+
+Este é um exemplo de subsubsections
+
+
+
+for sections
+=========================
+
+Este é um exemplo de sections
+
+
+
+
 
 
 Colocando texto em negrito:
@@ -40,12 +77,34 @@ Adicionar listas, faça dessa forma:
 2. Item 2
 3. Item 3
 
-Caso necessário colocar uma tabela faça dessa forma:
 
-Alinhado a esquerda | Centralizado | Alinhado a direita
-:--------- | :------: | -------:
-Valor | Valor | Valor
+Caso necessário colocar  tabelas faça dessa forma:
 
+
++------------------------+------------+----------+----------+
+| Header row, column 1   | Header 2   | Header 3 | Header 4 |
+| (header rows optional) |            |          |          |
++========================+============+==========+==========+
+| body row 1, column 1   | column 2   | column 3 | column 4 |
++------------------------+------------+----------+----------+
+| body row 2             | ...        | ...      |          |
++------------------------+------------+----------+----------+
+
+
+=====  =====  =======
+A      B      A and B
+=====  =====  =======
+False  False  False
+True   False  False
+False  True   False
+True   True   True
+=====  =====  =======
+
+
+
+
+
+**Abaixo temos um exemplo de hiperlink**
 
 
 `google <http://google.com.br>`_
