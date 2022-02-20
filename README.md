@@ -13,6 +13,8 @@ No exemplo abaixo a execução ocorre no ambiente Centos release 7.9.2009 (Core)
 ### Para o template do sphinx-theme, necessário executar os comandos:
   yum install epel-release -y
   
+  yum install python3-pip -y
+  
   pip3 install --upgrade setuptools
  
 ### A instalação do(s) componente(s) via pip3, é feita da seguinte maneira (utilize o arquivo "requiriments.txt" disponibilizado neste repositório):
