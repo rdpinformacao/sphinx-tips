@@ -39,7 +39,7 @@ extensions = [
    # 'sphinx.ext.pngmath',
     'sphinx.ext.mathjax', 
     'sphinx.ext.ifconfig',
-    'sphinx_copybutton'
+#    'sphinx_copybutton'
    # 'numfig'
 ]
 numfig = True

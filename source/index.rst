@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 Bem vindo a Documentação exemplo do SPHINX
-====================================
+==============================================
 
 Conteúdo:
 
@@ -13,4 +13,4 @@ Conteúdo:
 
    description
 
-   installation
+   instalation
