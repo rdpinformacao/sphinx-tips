@@ -50,7 +50,7 @@ Valor | Valor | Valor
 
 Para criar um Link, faça:
 
-<https://google.com.br/>
+`google<https://google.com.br/>`__
 
 
 Adicionando BOX (título nível 2)
