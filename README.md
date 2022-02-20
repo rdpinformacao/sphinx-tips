@@ -1,3 +1,7 @@
+
+------------------------------------------------------------------------------------
+
+
 # sphinx-tips
 
 Respositório criado para mostrar como subir documentações com sphinx-theme.
@@ -22,3 +26,6 @@ No exemplo abaixo a execução ocorre no ambiente Centos release 7.9.2009 (Core)
   pip3 install -r requirements.txt
    
    
+   
+   
+----------------------------------------------------------------------------------
