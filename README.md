@@ -20,6 +20,11 @@ _Obs: Vamos executar  alguns passos no virtualenv para evitar problemas._
 
 
 ### Instalar o python3 e pip caso não tenha instalado:
+
+``` 
+  sudo yum install epel-release -y
+``` 
+
 ``` 
   sudo yum install python3 -y
 ``` 
