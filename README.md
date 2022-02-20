@@ -4,7 +4,7 @@ No exemplo abaixo está sendo executado no ambiente Centos release 7.9.2009 (Cor
 
 Necessário executar a instalação dos seguintes componentes antes de inciar:
 
-# Instalar o python3 caso não tenha instalado
+### Instalar o python3 caso não tenha instalado
   yum install python3
 
 # Para o template do sphinx-theme, necessário executar o comando:
