@@ -7,7 +7,7 @@
 Repositório criado para mostrar como subir documentações com sphinx-theme.
 No exemplo abaixo a execução ocorre no ambiente Centos release 7.9.2009 (Core) (RedHat)
 
-Obs: Vamos executar  alguns passos no virtualenv para evitar problemas.
+_Obs: Vamos executar  alguns passos no virtualenv para evitar problemas._
 
 ## Necessário executar a instalação ( Centos 7 ) dos seguintes componentes antes de inciar:
 
@@ -34,7 +34,6 @@ Obs: Vamos executar  alguns passos no virtualenv para evitar problemas.
 ``` 
   cd /home/$USER
 ```
- 
 ``` 
   pip3 install  virtualenv --user
 ```
@@ -49,8 +48,12 @@ Obs: Vamos executar  alguns passos no virtualenv para evitar problemas.
 ```
  
  
-###  Por fim, faça a instalação dos "requirements.txt" e gere os arquivos HTML da documentação citada neste projeto :
+###  Por fim, ainda no virtualenv, faça a instalação dos "requirements.txt" e gere os arquivos HTML da documentação citada neste projeto :
  
+ 
+``` 
+  cd /home/$USER
+```
 
 ```
   git clone https://github.com/rdpinformacao/sphinx-tips.git
