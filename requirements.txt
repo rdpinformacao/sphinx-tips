@@ -1,2 +1,1 @@
---upgrade setuptools
 sphinx_rtd_theme
