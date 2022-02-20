@@ -15,7 +15,7 @@ No exemplo abaixo a execução ocorre no ambiente Centos release 7.9.2009 (Core)
   
   pip3 install --upgrade setuptools
  
-### A instalação dos componentes via pip3, é feita da seguinte maneira (utilize o arquivo "requiriments.txt" disponibilizado neste repositório):
+### A instalação do(s) componente(s) via pip3, é feita da seguinte maneira (utilize o arquivo "requiriments.txt" disponibilizado neste repositório):
  
   pip3 install -r requirements.txt
    
