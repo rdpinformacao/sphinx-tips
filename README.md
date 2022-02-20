@@ -18,7 +18,7 @@ No exemplo abaixo a execução ocorre no ambiente Centos release 7.9.2009 (Core)
 ### Para o template do sphinx-theme, necessário executar os comandos:
  
  ``` 
-      yum install epel-release -y
+ yum install epel-release -y
  ``` 
  
  ```
