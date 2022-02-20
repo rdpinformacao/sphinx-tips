@@ -10,13 +10,18 @@ No exemplo abaixo a execução ocorre no ambiente Centos release 7.9.2009 (Core)
 
 ## Necessário executar a instalação dos seguintes componentes antes de inciar:
 
+### Para clonar o repositório é necessário instalar o git:
+ ``` 
+   sudo yum install git
+ ```
+
+
 ### Instalar o python3 caso não tenha instalado:
  ``` 
-   yum install python3
+   sudo yum install python3
  ``` 
 
 ### Para o template do sphinx-theme, necessário executar os comandos:
- 
  ``` 
    sudo yum install epel-release -y
  ``` 
