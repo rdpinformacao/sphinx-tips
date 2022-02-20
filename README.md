@@ -4,7 +4,7 @@
 
 # sphinx-tips
 
-Respositório criado para mostrar como subir documentações com sphinx-theme.
+Repositório criado para mostrar como subir documentações com sphinx-theme.
 No exemplo abaixo a execução ocorre no ambiente Centos release 7.9.2009 (Core) (RedHat)
 
 
@@ -18,11 +18,11 @@ No exemplo abaixo a execução ocorre no ambiente Centos release 7.9.2009 (Core)
 ### Para o template do sphinx-theme, necessário executar os comandos:
  
  ``` 
-   yum install epel-release -y
+   sudo yum install epel-release -y
  ``` 
  
  ```
-   yum install python3-pip -y 
+   sudo yum install python3-pip -y 
  ```
   
  ```
