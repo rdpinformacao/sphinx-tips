@@ -12,13 +12,13 @@ No exemplo abaixo a execução ocorre no ambiente Centos release 7.9.2009 (Core)
 
 ### Para clonar o repositório é necessário instalar o git:
  ``` 
-   sudo yum install git
+   sudo yum install git -y
  ```
 
 
 ### Instalar o python3 caso não tenha instalado:
  ``` 
-   sudo yum install python3
+   sudo yum install python3 -y
  ``` 
 
 ### Para o template do sphinx-theme, necessário executar os comandos:
