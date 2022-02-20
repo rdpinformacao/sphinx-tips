@@ -19,7 +19,7 @@ Obs: Vamos executar  alguns passos no virtualenv para evitar problemas.
 ```
 
 
-### Instalar o python3 e pip3 caso não tenha instalado:
+### Instalar o python3 e pip caso não tenha instalado:
 ``` 
   sudo yum install python3 -y
 ``` 
