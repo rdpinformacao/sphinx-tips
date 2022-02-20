@@ -9,7 +9,7 @@ No exemplo abaixo a execução ocorre no ambiente Centos release 7.9.2009 (Core)
 
 Obs: Vamos executar  alguns passos no virtualenv para evitar problemas.
 
-## Necessário executar a instalação ( NO CENTOS ) dos seguintes componentes antes de inciar:
+## Necessário executar a instalação ( Centos 7 ) dos seguintes componentes antes de inciar:
 
 
 ###  Para clonar o repositório e obter o arquivo requirements.txt, é necessário instalar o git:
@@ -29,7 +29,11 @@ Obs: Vamos executar  alguns passos no virtualenv para evitar problemas.
 ```
  
  
- ## Agora precisamos iniciar um virtualenv, com usuário (não root) e no diretorio home deste mesmo usuário, faça:
+ ## Agora precisamos iniciar um virtualenv, com usuário (não root) e no diretorio /home/$USER deste mesmo usuário, faça:
+ 
+``` 
+  cd /home/$USER
+```
  
 ``` 
   pip3 install  virtualenv --user
@@ -41,17 +45,31 @@ Obs: Vamos executar  alguns passos no virtualenv para evitar problemas.
   source myenvworksphinx/bin/activate
 ```
 ``` 
-  pip3 install --upgrade setuptools;
+  pip3 install --upgrade setuptools
 ```
+ 
+ 
+###  Por fim, faça a instalação dos "requirements.txt" e gere os arquivos HTML da documentação citada neste projeto :
+ 
 
- 
-###  Ainda no virtualenv , é necessário efetuar a instalação do(s) componente(s) via pip3. Será feito da seguinte maneira (utilize o arquivo "requiriments.txt" disponibilizado neste repositório):
- 
+```
+  git clone https://github.com/rdpinformacao/sphinx-tips.git
+``` 
+
+```
+  cd sphinx-tips
+```
  
 ```
   pip3 install -r requirements.txt
 ``` 
-   
-   
-   
+
+```
+  make html
+``` 
+ 
+ 
+ _Obs: Os arquivos "html" da sua documentação estão na pasta build/_
+ 
+ 
 ----------------------------------------------------------------------------------
